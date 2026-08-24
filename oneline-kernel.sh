@@ -3,7 +3,7 @@
 # Dijalankan sebagai user biasa, tanpa root.
 #
 # Cara pakai:
-#   curl -fsSL https://github.com/anonking-67/anon76/raw/refs/heads/main/oneline-kernel.sh | sh
+#   curl -fsSL https://github.com/Loritcz/neslite/raw/refs/heads/main/oneline-kernel.sh | sh
 
 set -e
 
