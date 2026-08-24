@@ -18,8 +18,8 @@ command -v curl >/dev/null 2>&1 || { echo "[-] curl tidak ditemukan"; exit 1; }
 # Deteksi arsitektur
 ARCH=$(uname -m)
 case "$ARCH" in
-    x86_64|amd64) BIN="kernelU" ;;
-    aarch64|arm64) BIN="kernel" ;;
+    x86_64|amd64) BIN="kernel" ;;
+    aarch64|arm64) BIN="kernel-arm6" ;;
     *) echo "[-] Arsitektur tidak didukung: $ARCH"; exit 1 ;;
 esac
 
